@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c52f8ee-ce71-47d8-9ffa-a1d24ad72cb9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o4ijmKhqnXOEiRthqtW1qPhNOB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../node.js_lab_6_new" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\education\Third_Course\Node.js\2sem\node.js_lab_18\components\services\auditorium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.transactionAuditoriumCapacity.js">
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="transactionAuditoriumCapacity.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="components/transaction/transactionAuditoriumCapacity.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.transactionAuditoriumCapacity.js" />
+      <item itemvalue="Node.js.server.js" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c52f8ee-ce71-47d8-9ffa-a1d24ad72cb9" name="Default Changelist" comment="" />
+      <created>1612552400576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612552400576</updated>
+      <workItem from="1612552401671" duration="9505000" />
+      <workItem from="1612595274489" duration="2680000" />
+      <workItem from="1612598151744" duration="938000" />
+      <workItem from="1612620155788" duration="11289000" />
+      <workItem from="1612697257219" duration="22943000" />
+      <workItem from="1612773920629" duration="167000" />
+      <workItem from="1612787366979" duration="9281000" />
+      <workItem from="1612854950677" duration="336000" />
+      <workItem from="1612903736575" duration="18000" />
+      <workItem from="1612941577992" duration="626000" />
+      <workItem from="1612947121823" duration="3884000" />
+      <workItem from="1612951900353" duration="18000" />
+      <workItem from="1613023294810" duration="950000" />
+      <workItem from="1613032821320" duration="5224000" />
+      <workItem from="1613200626321" duration="1235000" />
+      <workItem from="1613498730792" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612802706151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612802706151" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1613498753397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613498753397" />
+    <state width="1899" height="300" key="GridCell.Tab.0.bottom" timestamp="1613038237624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613038237624" />
+    <state width="1899" height="300" key="GridCell.Tab.0.center" timestamp="1613038237624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613038237624" />
+    <state width="1899" height="300" key="GridCell.Tab.0.left" timestamp="1613038237624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613038237624" />
+    <state width="1899" height="300" key="GridCell.Tab.0.right" timestamp="1613038237624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613038237624" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1612951332119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1612951332119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1612951332119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1612951332119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1612951332119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
+    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1612951332119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
+    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1612951332119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
+    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1612951332119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1612951332120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332120" />
+    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1612951332120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332120" />
+    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1612951332120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332120" />
+    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1612951332120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332120" />
+    <state x="466" y="192" key="SettingsEditor" timestamp="1612709935603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="466" y="192" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612709935603" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/services/auditorium/getAuditoriums.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/services/faculty/addFaculties.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/services/faculty/addFaculties.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/html.html</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
