@@ -1,0 +1,19 @@
+<script>
+    function changeAction(){
+        document.getElementById('update_form').action = '/delete';
+    }
+</script>
+<div>
+    {{#if isAdd}}
+        <button type="submit" class="btn"><i class="material-icons left">add</i>Add Field</button>
+        <a href="/" class="waves-effect waves-light btn"><i class="material-icons left">logout</i>Close</a>
+    {{/if}}
+    {{#if isIndex}}
+        <a href="/add" class="waves-effect waves-light btn"><i class="material-icons left">add_task</i>ADD</a>
+    {{/if}}
+    {{#if isUpdate}}
+        <button type="submit" class="btn"><i class="material-icons left">change_circle</i>Change Field</button>
+        <button id="delete_button" onclick="changeAction()" class="btn"><i class="material-icons left">clear</i>Delete</button>
+        <a href="/" class="waves-effect waves-light btn"><i class="material-icons left">logout</i>Close</a>
+    {{/if}}
+</div>

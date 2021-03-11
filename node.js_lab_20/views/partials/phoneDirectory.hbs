@@ -1,0 +1,12 @@
+    <ul class="items_list">
+        {{#each items}}
+            <form action="/update" method="get">
+                <label>
+                    <button class="btn btn-flat" type="submit"></button>
+                    <span style="font-size: large">{{name}} {{telephone}}</span>
+                    <input type="hidden" value="{{id}}" name="id">
+                </label>
+            </form>
+        {{/each}}
+    </ul>
+
