@@ -15,9 +15,8 @@ app.set('view engine', 'hbs');
 app.set('views', 'views');
 
 app.use(cookieParser());
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({extended: true}));
 app.use(phoneDirectoryRouter);
-
 
 app.listen(process.env.PORT);
 

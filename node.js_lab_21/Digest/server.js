@@ -5,14 +5,13 @@ const passport = require('passport');
 const session = require('express-session');
 const initializePassport = require('./passport-config');
 
-const app = express();
-
 
 initializePassport(
     passport,
     name => users.find(user => user.name === name),
     id => users.find(user => user.id === id)
 )
+const app = express();
 
 app.use(session({
     secret: process.env.SESSION_KEY
@@ -23,6 +22,7 @@ app.use(passport.session())
 app.get('/login', (req, res, next) => {
     if (req.headers['authorization'] && req.session.logout){
         req.session.logout = false;
+        req.logout();
         delete req.headers['authorization'];
     }
     next();

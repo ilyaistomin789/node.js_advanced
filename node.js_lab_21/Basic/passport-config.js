@@ -16,7 +16,6 @@ const initializePassport = (passport, getUserByName, getUserById) => {
     passport.use(new BasicStrategy(authenticateUser));
     passport.serializeUser((user, done) => done(null, user.id));
     passport.deserializeUser((id, done) => done(null, getUserById(id)));
-
 }
 
 module.exports = initializePassport;

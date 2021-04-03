@@ -26,6 +26,7 @@ app.use(passport.session());
 app.get('/login', (req, res, next) => {
     if (req.session.logout && req.headers['authorization']){
         req.session.logout = false;
+        req.logout();
         delete req.headers['authorization'];
     }
     next();
