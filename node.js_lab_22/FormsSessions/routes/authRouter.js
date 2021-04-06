@@ -19,15 +19,16 @@ router.use(expressSession({
 router.use(passport.initialize());
 router.use(passport.session());
 
-router.get('/login', AuthController.getLogin);
+router.get('/login', AuthController.loginPage);
 router.post('/login', (req, res, next) => {
     console.log(req.body);
     next();
-})
+});
 router.post('/login', passport.authenticate('local', {
     successRedirect: '/',
     failureRedirect: '/login'
-}))
-
+}));
+router.get('/logout', AuthController.logout);
+router.get('/resource', AuthController.resource);
 
 module.exports = router;
