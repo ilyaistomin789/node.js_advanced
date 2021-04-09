@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c52f8ee-ce71-47d8-9ffa-a1d24ad72cb9" name="Default Changelist" comment="" />
+    <list default="true" id="6c52f8ee-ce71-47d8-9ffa-a1d24ad72cb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../course_project/topic-hub-client/src/components/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_project/topic-hub-client/src/components/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course_project/topic-hub-client/src/elements/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js_lab_17/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/controllers/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/database/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/models/users.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/views/register.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js_lab_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../node.js_lab_17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/passport-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/passport-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node.js_lab_22/FormsJwt/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +29,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1o4ijmKhqnXOEiRthqtW1qPhNOB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,8 +43,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../node.js_lab_6_new" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node.js_lab_22" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -74,89 +92,25 @@
       <workItem from="1613032821320" duration="5224000" />
       <workItem from="1613200626321" duration="1235000" />
       <workItem from="1613498730792" duration="25000" />
+      <workItem from="1617875019797" duration="1799000" />
+      <workItem from="1617908953581" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612802706151">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612802706151" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1613498753397">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613498753397" />
-    <state width="1899" height="300" key="GridCell.Tab.0.bottom" timestamp="1613038237624">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613038237624" />
-    <state width="1899" height="300" key="GridCell.Tab.0.center" timestamp="1613038237624">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613038237624" />
-    <state width="1899" height="300" key="GridCell.Tab.0.left" timestamp="1613038237624">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613038237624" />
-    <state width="1899" height="300" key="GridCell.Tab.0.right" timestamp="1613038237624">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613038237624" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1612951332119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1612951332119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1612951332119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1612951332119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1612951332119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
-    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1612951332119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
-    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1612951332119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
-    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1612951332119">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332119" />
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1612951332120">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332120" />
-    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1612951332120">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332120" />
-    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1612951332120">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332120" />
-    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1612951332120">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612951332120" />
-    <state x="466" y="192" key="SettingsEditor" timestamp="1612709935603">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="466" y="192" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612709935603" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

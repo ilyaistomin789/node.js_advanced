@@ -1,9 +1,10 @@
 const LocalStrategy = require('passport-local').Strategy;
-const initializePassport = (passport, getUserByName) => {
+
+const initializePassport = (passport, getUserByUsername) => {
     const authenticateUser = (username, password, done) => {
-        const user = getUserByName(username);
+        const user = getUserByUsername(username);
         if (user == null) return done(null, false, { message: 'This user does not exists' });
-        if (user.password != password){
+        if (user.password !== password){
             return done(null, false, { message: 'Incorrect password'});
         } else {
             return done(null, user)
@@ -13,3 +14,4 @@ const initializePassport = (passport, getUserByName) => {
     passport.serializeUser((user, done) => done(null,user));
     passport.deserializeUser((user, done) => done(null,user));
 }
+module.exports = initializePassport;
