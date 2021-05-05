@@ -28,3 +28,6 @@ CREATE TABLE commits (
     FOREIGN KEY ([repoId])
     REFERENCES repos([id])
     ON DELETE CASCADE);
+
+
+select * from users;
