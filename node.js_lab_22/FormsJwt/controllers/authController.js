@@ -15,16 +15,16 @@ exports.register = (req, res) => {
     const password = req.body.password;
     UserController.addUser(username, password);
     res.redirect('/');
-    //TODO add logic
 
 };
 let refreshTokens = [];
-exports.loginToken = (req, res) => {
+exports.loginToken = async (req, res) => {
     const username = req.body.username;
     const password = req.body.password;
-    const user = UserController.findUser(username, password);
+    const user = await UserController.findUser(username, password);
+    console.log(user)
     if (user === null) {
-        return res.sendStatus(401).redirect('/login');
+        return res.redirect('/login');
     } else {
         const user = { username: username };
         const accessToken = generateAccessToken(user);

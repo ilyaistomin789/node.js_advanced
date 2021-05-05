@@ -10,11 +10,12 @@ exports.addUser = (username, password) => {
             console.log(e.message)});
 }
 exports.findUser = async (username, password) => {
-    const user = await User.findOne({
+    return await User.findOne({
         where: {
             USERNAME: username,
             PASSWORD: password
         }
-    })
-    return user;
+    });
+
+
 }
