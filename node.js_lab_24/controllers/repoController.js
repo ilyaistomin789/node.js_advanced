@@ -4,7 +4,7 @@ const Commit = require('../models/commit.model');
 exports.getRepos = async (req, res) => {
     const repos = await Repo.findAll({ raw: true });
     console.log(repos);
-    req.ability.throwUnlessCan("manage", "all");
+    req.ability.throwUnlessCan("read", "repos");
     repos !== null ? res.json(repos) : res.json({ message: 'repos not found' });
 }
 
@@ -32,7 +32,7 @@ exports.editById = async (req, res) => {
 
 exports.deleteRepo = async (req, res) => {
     const id = req.params.id;
-    const repo = Repo.findOne({where: { id: id } });
+    const repo = await Repo.findOne({where: { id: id } });
     req.ability.throwUnlessCan("delete", repo);
     await repo.destroy()
         .then(() => res.json({ message: 'The repository was deleted' }))
@@ -42,9 +42,9 @@ exports.deleteRepo = async (req, res) => {
 exports.getReposWithCommitsById = async (req, res) => {
     const id = req.params.id;
     const repoCommits = await Commit.findAll({
-        where: { authorId: id }
+        where: { repoId: id }
     })
-    req.ability.throwUnlessCan("manage", "all");
+    req.ability.throwUnlessCan("read", "commits");
     res.json(repoCommits);
 }
 
