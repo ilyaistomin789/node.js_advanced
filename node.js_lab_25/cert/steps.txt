@@ -1,0 +1,44 @@
+--we need to do stmnl.cfg
+
+--
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+prompt = no
+
+[req_distinguished_name]
+C = BY
+ST = Minsk
+L = Minsk
+O = stmnl.corp
+OU = stmnlunion
+CN = Ilya
+
+[v3_req]
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+IP.1 = 127.0.0.1
+
+--
+
+
+genrsa -des3 -out CA.key 2048
+
+req -x509 -new -key CA.key -days 700 -sha256 -out CA.crt -config openssl.cnf
+	phrse	pa$$word;
+	country	BY
+	spn	Minsk
+	local n	Minsk
+	org. n	merrc.corp
+	org unit	merrccury
+	common name	Dmitry
+	email	merrc@gmail.com
+
+genrsa -out stmnl.key 2048
+
+req -new -key stmnl.key -out stmnl.csr -sha256 -config stmnl.cfg
+
+x509 -req -in stmnl.csr -CA CA.crt -CAkey CA.key -CAcreateserial -out stmnl.crt -days 365 -sha256 -extensions v3_req -extfile stmnl.cfg

@@ -1,5 +1,5 @@
 {
-  "name": "node.js_lab_25",
+  "name": "node.js_lab_29",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
   }
 }

@@ -68,7 +68,7 @@ exports.setCommitByRepoId = async (req, res) => {
         repoId: id,
         message: req.body.message
     })
-    req.ability.throwUnlessCan("create", commit);
+    req.ability.throwUnlessCan("create", "commits");
     await commit.save()
         .then(() => res.json({ message: `Adding the commit for repo id ${id} was successful` }))
         .catch(e => res.json({ message: e.message }));
@@ -95,7 +95,7 @@ exports.deleteCommitByRepoId = async (req, res) => {
             repoId: id,
             id: commitId
         }})
-    req.ability.throwUnlessCan("delete", commit);
+    req.ability.throwUnlessCan("delete", "commits");
     await commit.destroy()
         .then(() => res.json({ message: `Deleting the commit for repo id ${id} was successful` }))
         .catch(e => res.json({ message: e.message }));
