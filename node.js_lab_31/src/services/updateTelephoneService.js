@@ -1,4 +1,5 @@
-const dictionary = require('../models/dictionary.model');
+const fs = require('fs');
+const dictionary = JSON.parse(fs.readFileSync('./models/dictionary.model.json'));
 
 module.exports = (req, res) => {
     const {id, name, telephone} = req.body;
@@ -6,6 +7,7 @@ module.exports = (req, res) => {
     if (item !== []) {
         item.name = name;
         item.telephone = telephone;
+        fs.writeFileSync('./models/dictionary.model.json', JSON.stringify(dictionary));
         return res.json('Telephone updated successfully');
     }
 
