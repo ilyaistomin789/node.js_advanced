@@ -6,7 +6,6 @@ const swaggerUi = require("swagger-ui-express"),
     swaggerDocument = require("./swagger.json");
 app.use(bodyParser.json());
 
-//TODO: fix file updating
 app.use(DictionaryRouter);
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
